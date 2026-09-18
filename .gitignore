@@ -1,0 +1,8 @@
+# personal editor / shell history never belongs in the repo
+.viminfo
+.zsh_history
+# no more vendored tarballs
+*.tgz
+.DS_Store
+# Ghidra writes a .bak next to a theme it overwrites on import
+ghidra/themes/*.bak
